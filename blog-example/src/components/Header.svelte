@@ -70,11 +70,11 @@
     <div class="profile">
       <img
         class="profile-image"
-        src="https://res.cloudinary.com/practicaldev/image/fetch/s--122RH5V_--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/16453/b219d515-8ee9-4f1d-9541-e4e49ce8d066.png"
+        src="https://avatars0.githubusercontent.com/u/22779752?s=460&u=71c7aa2da2cef2054d92697ef17337f8a3383140&v=4"
         alt="pethersonmoreno profile" />
     </div>
     <div class="profile-description">
-      <h1>Petherson Moreno</h1>
+      <h1>Petherson Moreno (Posts are not mine)</h1>
       <span class="role">Software Developer</span>
       <div class="social">
         <a href="https://twitter.com/pethersonmoreno" target="_blank">
