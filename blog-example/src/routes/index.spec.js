@@ -11,4 +11,32 @@ describe("index component", () => {
 
     expect(container).toContainHTML("<div></div>");
   });
+
+  test("should render articles", () => {
+    const title = "My title";
+    const description = "some description";
+    const readable_publish_date = "10 Oct";
+    const canonical_url = "url";
+    const { container, getByText } = render(Index, {
+      props: {
+        articles: [
+          {
+            title,
+            canonical_url,
+            readable_publish_date,
+            description,
+            tag_list: []
+          }
+        ]
+      }
+    });
+  
+    expect(container.querySelector("a").href).toBe(
+      `http://localhost/${canonical_url}`
+    );
+    expect(getByText(title)).toBeInTheDocument();
+    expect(getByText(readable_publish_date)).toBeInTheDocument();
+    expect(getByText(description)).toBeInTheDocument();
+  });
+
 });
