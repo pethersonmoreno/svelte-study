@@ -1,5 +1,7 @@
 # blog-example
 
+It uses sapper and test with Jest.
+
 Reference example: https://dev.to/jpblancodb/create-a-blog-with-svelte-and-dev-to-api-176j
 
 It is created using 'sapper-template'.
