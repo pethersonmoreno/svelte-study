@@ -1,9 +1,3 @@
-<script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
-</script>
-
 <style>
 	main {
 		position: relative;
@@ -15,7 +9,9 @@
 	}
 </style>
 
-<Nav {segment}/>
+<svelte:head>
+  <title>Petherson Moreno - Blog</title>
+</svelte:head>
 
 <main>
 	<slot></slot>
