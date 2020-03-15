@@ -1,8 +1,4 @@
-# blog-example
-
-Reference example: https://dev.to/jpblancodb/create-a-blog-with-svelte-and-dev-to-api-176j
-
-It is created using 'sapper-template'.
+# sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
 
