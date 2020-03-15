@@ -39,4 +39,17 @@ describe("index component", () => {
     expect(getByText(description)).toBeInTheDocument();
   });
 
+  test("should render articles with tags", () => {
+    const { getByText } = render(Index, {
+        props: {
+          articles: [
+            {
+              tag_list: ["my-tag"]
+            }
+          ]
+        }
+    });
+
+    expect(getByText("#my-tag")).toBeInTheDocument();
+  });
 });
