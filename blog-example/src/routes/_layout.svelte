@@ -1,3 +1,7 @@
+<script>
+  import Header from "../components/Header.svelte";
+</script>
+
 <style>
 	main {
 		position: relative;
@@ -12,6 +16,8 @@
 <svelte:head>
   <title>Petherson Moreno - Blog</title>
 </svelte:head>
+
+<Header />
 
 <main>
 	<slot></slot>
